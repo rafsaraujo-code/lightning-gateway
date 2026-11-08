@@ -8,7 +8,7 @@ app = Flask(__name__)
 # SEU NEGÓCIO PRÓPRIO - CONFIGURAÇÕES OFICIAIS
 # ==========================================
 CARTEIRA_DESTINO_LIGHTNING = "artfulfuture85@walletofsatoshi.com"
-VALOR_SERVICO_SATS = 500  # Custo padrão por transação automatizada
+VALOR_SERVICO_SATS = 21  # Custo padrão por transação automatizada
 
 def gerar_fatura_lnurl(lightning_address, satoshis, memo):
     """Gera a fatura BOLT11 e a URL de verificação de pagamento."""
